@@ -1,4 +1,10 @@
+cat >> .gitignore << 'EOF'
+# Python env
 .venv/
-venv/
-__pycache__/
-*.pyc
+
+# training outputs / checkpoints
+results/
+**/checkpoint-*/
+*.pt
+*.safetensors
+EOF
