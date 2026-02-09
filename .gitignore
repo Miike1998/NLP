@@ -5,6 +5,8 @@ cat >> .gitignore << 'EOF'
 # training outputs / checkpoints
 results/
 resultsV2/
+resultsV3/
+resulte_cpu/
 **/checkpoint-*/
 *.pt
 *.safetensors
