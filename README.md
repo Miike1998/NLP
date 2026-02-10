@@ -32,7 +32,7 @@ Het project is opgezet met focus op:
 ## Installatie
 
 ### 1. Repository clonen
-```bash
+
 git clone <repository-url>
 cd <project-folder>
 
